@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/tyler.desharnais/Desktop/untitled/Account.h
+string
+-
+iostream
+-
+iomanip
+-
+
+C:/Users/tyler.desharnais/Desktop/untitled/invoicetest.cpp
+iostream
+-
+Account.h
+C:/Users/tyler.desharnais/Desktop/untitled/Account.h
+
+C:/Users/tyler.desharnais/Desktop/untitled/main.cpp
+iostream
+-
+iostream
+-
+Account.h
+C:/Users/tyler.desharnais/Desktop/untitled/Account.h
+
