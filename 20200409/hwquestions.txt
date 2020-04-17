@@ -1,0 +1,27 @@
+2. The purpose of the scope resolution operator is 
+
+	1. To access a global var when there is a local variable of the same name
+	2. Defining a function outside of a class
+	3. Accessing static members with the same name as a local variable
+	etc...
+
+3. As described in the powerpoint, friend functions are non-member functions that have access to public and non-public 
+information. They are standalone functions. Can be declared as "friends" of another class within the class. 
+Some negative aspects of friend functions are that they are loopholes in OOP and can cause confusion, if not implemented 
+correctly, can cause breaks in data encapsulation and comprimise the integrity of "private" and "protected" elements of 
+the class. Among other things, these are some key takeaways..
+
+4. Yes, the class "Time" can have as many constructors has it wants. The constuctors however, will obviously constuct the
+time object in different ways based on the parameters being passed into it. If no parameters, the constuctor will default 
+whatever that time object is. If there are specific parameters set, then the object will be constructed as such.
+
+5. It will simply be considered a method of the class...
+Example:
+class myclass{
+
+public:
+	myclass(){} //constuctor 
+	void myclass{} //method of myclass
+
+
+}
